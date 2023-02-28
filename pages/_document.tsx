@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Evan Caplan\'s site',
     description: 'This is the personal site of Evan Caplan',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    image: 'https://photos.app.goo.gl/4Vfirvq44gaP9GD27',
   }
 
   return (
