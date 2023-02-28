@@ -1,29 +1,29 @@
-[debug] [2023-02-28T03:33:40.885Z] ----------------------------------------------------------------------
-[debug] [2023-02-28T03:33:40.887Z] Command:       /usr/local/bin/firebase /home/evan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
-[debug] [2023-02-28T03:33:40.887Z] CLI Version:   11.24.0
-[debug] [2023-02-28T03:33:40.887Z] Platform:      linux
-[debug] [2023-02-28T03:33:40.887Z] Node Version:  v16.16.0
-[debug] [2023-02-28T03:33:40.888Z] Time:          Mon Feb 27 2023 22:33:40 GMT-0500 (Eastern Standard Time)
-[debug] [2023-02-28T03:33:40.888Z] ----------------------------------------------------------------------
+[debug] [2023-02-28T03:46:08.314Z] ----------------------------------------------------------------------
+[debug] [2023-02-28T03:46:08.316Z] Command:       /usr/local/bin/firebase /home/evan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-02-28T03:46:08.317Z] CLI Version:   11.24.0
+[debug] [2023-02-28T03:46:08.317Z] Platform:      linux
+[debug] [2023-02-28T03:46:08.317Z] Node Version:  v16.16.0
+[debug] [2023-02-28T03:46:08.320Z] Time:          Mon Feb 27 2023 22:46:08 GMT-0500 (Eastern Standard Time)
+[debug] [2023-02-28T03:46:08.320Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-02-28T03:33:40.966Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-02-28T03:33:40.967Z] > authorizing via signed-in user (ecaplan31@gmail.com)
-[debug] [2023-02-28T03:33:40.967Z] [iam] checking project evan-personal-d913d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2023-02-28T03:33:40.969Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions [none]
-[debug] [2023-02-28T03:33:40.970Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions x-goog-quota-user=projects/evan-personal-d913d
-[debug] [2023-02-28T03:33:40.970Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-02-28T03:33:41.339Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions 200
-[debug] [2023-02-28T03:33:41.340Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-02-28T03:33:41.344Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d [none]
-[debug] [2023-02-28T03:33:41.719Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d 200
-[debug] [2023-02-28T03:33:41.720Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d {"projectId":"evan-personal-d913d","projectNumber":"16682819013","displayName":"evan-personal","name":"projects/evan-personal-d913d","resources":{"hostingSite":"evan-personal-d913d"},"state":"ACTIVE","etag":"1_a4f26d5e-6693-49c6-9786-28eadfe04904"}
-[debug] [2023-02-28T03:33:44.408Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites pageToken=&pageSize=10
-[debug] [2023-02-28T03:33:45.055Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites 200
-[debug] [2023-02-28T03:33:45.055Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites {"sites":[{"name":"projects/evan-personal-d913d/sites/evan-personal-d913d","defaultUrl":"https://evan-personal-d913d.web.app","appId":"1:16682819013:web:d37cd9b4898bec5e707fac","type":"DEFAULT_SITE"}]}
-[debug] [2023-02-28T03:33:45.057Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config [none]
-[debug] [2023-02-28T03:33:45.635Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config 200
-[debug] [2023-02-28T03:33:45.635Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config {"projectId":"evan-personal-d913d","appId":"1:16682819013:web:d37cd9b4898bec5e707fac","storageBucket":"evan-personal-d913d.appspot.com","apiKey":"AIzaSyCPllx5JtQD_tebDwjztYU0TDaJTkIh9rY","authDomain":"evan-personal-d913d.firebaseapp.com","messagingSenderId":"16682819013","measurementId":"G-NTS04CV6FF"}
-[debug] [2023-02-28T03:34:26.628Z] Error: Command failed: npm i --omit dev --no-audit
+[debug] [2023-02-28T03:46:08.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-28T03:46:08.396Z] > authorizing via signed-in user (ecaplan31@gmail.com)
+[debug] [2023-02-28T03:46:08.396Z] [iam] checking project evan-personal-d913d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-28T03:46:08.399Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions [none]
+[debug] [2023-02-28T03:46:08.399Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions x-goog-quota-user=projects/evan-personal-d913d
+[debug] [2023-02-28T03:46:08.399Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-28T03:46:08.765Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions 200
+[debug] [2023-02-28T03:46:08.766Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/evan-personal-d913d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-28T03:46:08.768Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d [none]
+[debug] [2023-02-28T03:46:09.156Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d 200
+[debug] [2023-02-28T03:46:09.157Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/evan-personal-d913d {"projectId":"evan-personal-d913d","projectNumber":"16682819013","displayName":"evan-personal","name":"projects/evan-personal-d913d","resources":{"hostingSite":"evan-personal-d913d"},"state":"ACTIVE","etag":"1_a4f26d5e-6693-49c6-9786-28eadfe04904"}
+[debug] [2023-02-28T03:46:11.920Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites pageToken=&pageSize=10
+[debug] [2023-02-28T03:46:12.526Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites 200
+[debug] [2023-02-28T03:46:12.527Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/evan-personal-d913d/sites {"sites":[{"name":"projects/evan-personal-d913d/sites/evan-personal-d913d","defaultUrl":"https://evan-personal-d913d.web.app","appId":"1:16682819013:web:d37cd9b4898bec5e707fac","type":"DEFAULT_SITE"}]}
+[debug] [2023-02-28T03:46:12.529Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config [none]
+[debug] [2023-02-28T03:46:13.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config 200
+[debug] [2023-02-28T03:46:13.049Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:16682819013:web:d37cd9b4898bec5e707fac/config {"projectId":"evan-personal-d913d","appId":"1:16682819013:web:d37cd9b4898bec5e707fac","storageBucket":"evan-personal-d913d.appspot.com","apiKey":"AIzaSyCPllx5JtQD_tebDwjztYU0TDaJTkIh9rY","authDomain":"evan-personal-d913d.firebaseapp.com","messagingSenderId":"16682819013","measurementId":"G-NTS04CV6FF"}
+[debug] [2023-02-28T03:46:37.581Z] Error: Command failed: npm i --omit dev --no-audit
     at checkExecSyncError (node:child_process:828:11)
     at Object.execSync (node:child_process:899:15)
     at execSync (pkg/prelude/bootstrap.js:2115:30)
