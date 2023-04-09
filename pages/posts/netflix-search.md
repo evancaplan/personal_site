@@ -18,6 +18,7 @@ author: Evan Caplan
 [Netflix Search Service](https://github.com/evancaplan/netflix-search-service)
 
 ## Demo
+_Please click the image below to view the demo on Youtube._
 [![Netflix Search Demo](https://img.youtube.com/vi/N_ER0gkuWSk/0.jpg)](https://www.youtube.com/watch?v=N_ER0gkuWSk)
 
 
